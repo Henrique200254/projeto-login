@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/*
+   Paleta de Cores
+   Verde: #49a09d
+   Lilás: #5f2c82
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    background-color:#5f2c82;
+}
+
+section#login {
+    background-color: white;
+    width: 270px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    
+}
+
+section#login > div#imagem {
+    background:#5f2c82 url(../imagens/prediofuturo.jpg);
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+}
+
+div#formulario {
+    padding: 10px;
+}
+
+div#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+div.campo {
+    
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color:#49a09d;
+    color: white;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #2d6462;
+    
+}
+
+form a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #2d6462;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #2d6462;
+    
+}
+
+form a.botao:hover {
+
+}
+
+form > div.campo {
+    background-color: #5f2c82;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    border: 1px solid #5f2c82;
+}
+
+label {
+    display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    height: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #49a09d;
+    font-size: 1em;
+    width: calc(100% - 47.1px);
+    transform: translateY(-12px);
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+a > span.material-symbols-outlined {
+    font-size: 1em;
+}
+
